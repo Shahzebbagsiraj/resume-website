@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Glassmorphism Effect */
+.content-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    color: #4a4e69;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+h1:hover,
+h2:hover {
+    transform: scale(1.05);
+    color: #22223b;
+}
+
+/* Profile Image */
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.profile-img:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Links and Icons */
+.link-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.link-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Skills List */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.skills-list li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    color: #f0f0f0;
+}
+
+body.dark-mode .container {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .content-section {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Button Styles */
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #9a8c98;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+/* Dark Mode Toggle Button */
+#toggle-dark-mode {
+    background-color: rgb(245, 179, 179);
+}
+
+#toggle-dark-mode:hover {
+    background-color: red;
+}

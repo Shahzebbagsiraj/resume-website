@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            transition: background-color 0.5s ease, color 0.5s ease;
+            color: #333;
+        }
+
+        /* Contact Information */
+        h1,
+        h2 {
+            color: #4a4e69;
+            text-align: left;
+            margin-bottom: 20px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #4a4e69;
+        }
+
+        span {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        /* Dark Mode */
+        body.dark-mode {
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            color: #f0f0f0;
+        }
+
+        body.dark-mode h1,
+        body.dark-mode h2 {
+            color: #f0f0f0;
+        }
+
+        body.dark-mode section {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        body.dark-mode a {
+            color: #ddd;
+        }
+
+        body.dark-mode a:hover {
+            color: #bbb;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contact Information</h1>
+    <section> <img src="./images/gmail.png" height="20px">
+        <a href="https://gmail.com">Mail</a>
+    </section>
+    <br />
+    <section>
+        <img src="./images/mobile.png" height="20px">
+        <span>91+123-456-789</span>
+    </section>
+    <br />
+    <section>
+        <img src="./images/placeholder.png" height="20px">
+        <span>India|XYZ</span>
+
+
+    </section>
+
+
+    <h2>Socail Media</h2>
+    <section>
+        <a href="https://www.instagram.com"><img src="./images/instagram.png" height="=20px" width="20px"></a>
+
+
+        <a href="https://www.facebook.com"> <img src="./images/facebook.png" height="=20px" width="20px"></a>
+
+        <a href="https://www.linkedin.com"><img src="./images/linkedin.png" height="=20px" width="20px">
+
+        </a>
+
+        <a href="https://x.com"><img src="./images/twitter.png" height="=20px" width="20px">
+        </a>
+
+        <a href="https://github.com/Shahzebbagsiraj"><img src="./images/github.png" height="=20px" width="20px"></a>
+
+
+
+    </section>
+</body>
+
+</html>
